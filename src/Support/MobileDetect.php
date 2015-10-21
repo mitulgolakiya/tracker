@@ -51,16 +51,6 @@ class MobileDetect extends Agent {
 	}
 
 	/**
-	 * Is this a phone?
-	 *
-	 * @return bool
-	 */
-	public function isPhone()
-	{
-		return ! $this->isTablet() && ! $this->isComputer();
-	}
-
-	/**
 	 * Is this a computer?
 	 *
 	 * @return bool
